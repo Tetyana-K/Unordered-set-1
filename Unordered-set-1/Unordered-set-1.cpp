@@ -15,8 +15,12 @@ void printCont(const T& cont)
 }
 int main()
 {
-    unordered_set  <int> s{ 10, 2, 34, 5 };
+    unordered_set  <int> s{ 10, 2, 34, 5 }; // невпор€дкована множина, орган≥зована €к хеш-таблиц€ 
+
 	printCont(s);
+
+	cout << "Buckets " << s.bucket_count();
+	
 }
 
 
