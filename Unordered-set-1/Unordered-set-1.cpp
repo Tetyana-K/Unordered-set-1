@@ -19,7 +19,8 @@ int main()
 
 	printCont(s);
 
-	cout << "Buckets " << s.bucket_count();
+	cout << "Buckets " << s.bucket_count()<< endl;
+	cout << "Buckets size(0) " << s.bucket_size(0)<< endl;
 	
 }
 
